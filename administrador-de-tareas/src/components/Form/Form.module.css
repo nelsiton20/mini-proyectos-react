@@ -1,0 +1,64 @@
+.formContainer{
+    margin: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.form{
+    width: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    border: 3px solid #3366CC;
+    border-radius: 9px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+}
+
+.message{
+    margin: 10px 0;
+    resize: none;
+    width: 80%;
+    height: 250px;
+    background-color: transparent;
+    outline: 1px solid #FFFF00;
+    color: #fff;
+}
+
+.message:focus{
+    outline: 2px solid #2f2;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+}
+
+.btn{
+    width: 250px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: rgb(23, 31, 60);
+    color: #fff;
+    border: 1px solid #48e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.5;
+}
+
+
+/* -------------------  MEDIA QUERIES ---------------- */
+
+@media (max-width: 1000px ) {
+    .form{
+        width: 90%;
+    }
+}
