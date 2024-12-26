@@ -1,0 +1,17 @@
+.resultContainer{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    border: 2px solid #FFA500;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.resultContainer > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

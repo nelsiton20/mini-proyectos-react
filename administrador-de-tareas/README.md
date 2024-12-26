@@ -1,9 +1,5 @@
-
----
-
 ### **README.md del proyecto "Administrador de Tareas"**
 
-```markdown
 # Administrador de Tareas
 
 Este proyecto es una aplicación sencilla para gestionar tareas. Permite agregar, eliminar, completar y filtrar tareas. Está diseñado para practicar conceptos básicos de React y el uso de `localStorage`.
@@ -29,7 +25,7 @@ Este proyecto es una aplicación sencilla para gestionar tareas. Permite agregar
 
 1. Clona este repositorio y navega a la carpeta del proyecto:
    ```bash
-   git clone https://github.com/NelsonDev/mini-proyectos-react.git
+   git clone https://github.com/nelsiton20/mini-proyectos-react.git
    cd mini-proyectos-react/administrador-de-tareas
 2. Instala las dependencias necesarias:
   npm install

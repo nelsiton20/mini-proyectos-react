@@ -1,0 +1,62 @@
+.converterContainer{
+    box-sizing: border-box;
+    width: 700px;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #48ed;
+    border: 1px solid #000;
+    border-radius: 9px;
+}
+
+.inputContainer{
+    box-sizing: border-box;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 3px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.button{
+    color: #fff;
+    margin: 15px 0;
+    width: 150px;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0f44fe;
+}
+
+.button:hover{
+    outline: 3px solid #2f0;
+}
+
+.mountInput{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #0005;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.containerResult{
+    margin: 5px 0px;
+    color: #fff;
+}
+
+@media (max-width: 700px){
+    .converterContainer{
+        width: 90%;
+    }
+
+    .inputContainer{
+        flex-direction: column;
+    }
+
+    .inputContainer input{
+        width: 50%;
+    }
+}

@@ -1,0 +1,30 @@
+.resultContainer{
+    box-sizing: border-box;
+    width: 50dvw;
+    height: 500px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    border: 3px solid #00008B;
+    border-radius: 15px;
+    overflow-y: auto;
+    color: #fff;
+}
+
+.resultContainer::-webkit-scrollbar {
+    width: 5px; 
+}
+
+.resultContainer::-webkit-scrollbar-track {
+    border-radius: 10px; 
+}
+
+.resultContainer::-webkit-scrollbar-thumb {
+    background-color: #006600; 
+    border-radius: 10px;
+}
+
+@media (max-width: 800px){
+    .resultContainer{
+        width: 90dvw;
+    }
+}

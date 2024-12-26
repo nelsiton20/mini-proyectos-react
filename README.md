@@ -7,13 +7,8 @@ Este repositorio contiene una colección de proyectos desarrollados con React. E
 1. **Administrador de Tareas**
    - Un gestor básico para agregar, eliminar, completar y filtrar tareas.
 
-2. **[Proyecto 2]**
-   - [Breve descripción del segundo proyecto].
-
-3. **[Proyecto 3]**
-   - [Breve descripción del tercer proyecto].
-
-*(Agrega más proyectos a medida que avances.)*
+2. **Conversor de Monedas**
+   - Un conversor de monedas interactivo que permita al usuario seleccionar dos monedas y convertir una cantidad entre ellas.
 
 ## Objetivo
 
