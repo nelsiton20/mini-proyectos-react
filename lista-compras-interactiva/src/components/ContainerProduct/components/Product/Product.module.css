@@ -1,0 +1,48 @@
+.containerProduct{
+    box-sizing: border-box;
+    width: 50%;
+    padding: 3px 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 0 8px #e2e8f0;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.form{
+    padding: 20px 10px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px solid #CBD5E0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerButton{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.iconUpdate{
+    width: 20px;
+    cursor: pointer;
+}
+
+.secondIconUpdate{
+    margin-left: 10px;
+}
+
+.icon{
+    width: 27px;
+    cursor: pointer;
+}
+
+@media (max-width: 700px){
+    .containerProduct{
+        width: 90%;
+    }
+}

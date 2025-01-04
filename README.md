@@ -10,6 +10,9 @@ Este repositorio contiene una colección de proyectos desarrollados con React. E
 2. **Conversor de Monedas**
    - Un conversor de monedas interactivo que permita al usuario seleccionar dos monedas y convertir una cantidad entre ellas.
 
+3. **Lista de Compras Interactiva**
+   - Este proyecto es una aplicación web para gestionar una lista de compras de manera eficiente.
+
 ## Objetivo
 
 El objetivo de este repositorio es servir como portafolio y base de aprendizaje para conceptos clave de React, como:

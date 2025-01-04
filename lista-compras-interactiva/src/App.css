@@ -1,0 +1,25 @@
+.main-container{
+    width: 60dvw;
+    height: 100dvh;
+    margin: auto;
+    background-color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    color: #2d3748;
+    margin: 0;
+}
+
+@media (max-width: 1000px){
+    .main-container{
+        width: 100%;
+    }
+}

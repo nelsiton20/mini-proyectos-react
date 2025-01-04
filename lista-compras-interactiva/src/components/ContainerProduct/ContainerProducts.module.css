@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+.container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #F9FAFB; 
+    border-radius: 10px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: #CBD5E0; 
+    border-radius: 10px; 
+    border: 2px solid #F9FAFB; 
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background-color: #3182CE; 
+}

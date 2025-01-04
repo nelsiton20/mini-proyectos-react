@@ -1,0 +1,40 @@
+.barra{
+    box-sizing: border-box;
+    margin: 25px auto;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #E2E8F0;
+    border-radius: 20px;
+    background-color: #48bb78;
+    box-shadow: 0 0 5px #E2E8F0;
+    position: relative;
+}
+
+.result{
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+}
+
+.barraProgreso{
+    height: 30px;
+    background-color: #CBD5E0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 500px){
+    .barra{
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .barraProgreso{
+        border-radius: 0;
+    }
+}
