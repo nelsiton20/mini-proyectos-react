@@ -1,0 +1,26 @@
+.itemRoute{
+    background-color: #fff;
+    border: 1px solid #D1D5DB;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 8px;
+    width: 250px;
+
+    & .itemTitle{
+        font-size: 20px;
+        margin: 0;
+        font-weight: bold;
+
+        & span{
+            color: #111827;
+        }
+    }
+
+    & .routeDescription{
+        margin: 10px 0;
+
+        & span{
+            font-weight: 500;
+        }
+    }
+}
