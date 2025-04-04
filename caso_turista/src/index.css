@@ -1,4 +1,7 @@
+body{
+    margin: 0;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  padding: 10px 30px;
 }
